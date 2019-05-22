@@ -1,5 +1,8 @@
+# このリポジトリは
+[これ](https://github.com/everyleaf/el-training/blob/master/docs/el-training.md)をやってみた記録。
+
 # demo
-あとでherokuのURLをはる
+（あとでherokuのURLをはる）
 
 # tips
 ## 環境
