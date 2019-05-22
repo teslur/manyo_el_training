@@ -1,0 +1,25 @@
+ja:
+  activerecord:
+    models:
+      task: タスク
+      label: ラベル
+    attributes:
+      task:
+        priority: 優先度
+        status: ステータス
+        name: タスク名
+        description: 概要
+        limit_date: 終了期限
+        created_at: 作成日時
+        updated_at: 更新日時
+      label:
+        task_id: タスク
+        name: ラベル名
+        created_at: 作成日時
+        updated_at: 更新日時
+  enums:
+    task:
+      status:
+        not_yet_started: 未着手
+        processing: 着手中
+        finished: 完了

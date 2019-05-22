@@ -18,7 +18,7 @@
 
   <div class="field">
     <%= form.label :status %>
-    <%= form.select :status, task.class.statuses.keys.map {|k| [k, k]} %>
+    <%= form.enum_select :status %>
   </div>
 
   <div class="field">
